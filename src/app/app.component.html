@@ -1,0 +1,25 @@
+<!--The content below is only a placeholder and can be replaced.-->
+
+<div style="text-align:center">
+  <h1>
+    Hi I am {{ title }}!
+
+  </h1>
+</div>
+<div style="text-align:center">
+  <h1>
+    <app-smruti></app-smruti>
+  </h1>
+</div>
+<div style="text-align:initial">
+  <h2>
+    <app-address-cars test="sushree" [user]="user"></app-address-cars>
+    Juju's age: <input type="text" [(ngModel)]="inputText">
+    <p>I have taken  Rs.{{ inputText*5000+55 }} from papa.</p>
+  </h2>
+</div>
+<div>from view component
+  <app-sample></app-sample>
+</div>
+
+<router-outlet></router-outlet>
